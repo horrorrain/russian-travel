@@ -1,0 +1,11 @@
+.place__website {
+  margin: 0;
+  /* align-self: flex-end; */
+  max-width: 456px;
+}
+
+@media (min-width: 320px) {
+  .place__website{
+    align-self: flex-start;
+  }
+}

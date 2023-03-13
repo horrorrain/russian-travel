@@ -1,0 +1,13 @@
+.place__info {
+  display: flex;
+  flex-direction: column;
+  gap: 26px ;
+}
+
+@media (max-width: 767px) {
+  .place__info {
+    max-width: 320px;
+    gap: 25px;
+
+  }
+}
