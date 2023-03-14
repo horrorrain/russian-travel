@@ -24,6 +24,7 @@
   .place__title {
     line-height: 35px;
     font-size: 32px;
-    max-width: 288px;
+    max-width: calc(100% - 2*16px);
+    padding-left: 16px;
   }
 }

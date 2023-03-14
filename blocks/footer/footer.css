@@ -1,7 +1,6 @@
 .footer {
-  margin: 0;
-  max-width: 1184px;
-  width: 100%;
+  margin: 0 auto;
+  max-width: calc(100% - 2*48px);
   display: flex;
   justify-content: space-between;
   padding-top: 92px;
@@ -21,11 +20,11 @@
   }
 }
 
- @media (max-width: 767px) {
+ @media (max-width: 740px) {
   .footer {
-    max-width: 186px;
+    max-width: calc(100% - 2*16px);
     padding-top: 64px;
     flex-direction: column;
-    margin-right: 100px;
+
   }
 }

@@ -4,9 +4,10 @@
   font-size: 14px;
   font-weight: 400;
   text-align: right;
+  max-width: 186px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 740px) {
   .footer__copyright {
     line-height: 14px;
     padding-top: 48px;
