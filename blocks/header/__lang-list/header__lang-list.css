@@ -1,12 +1,6 @@
 .header__lang-list {
-  margin: 20px 0 0;
+  padding-top: 14px;
   display: flex;
-  align-items: center;
   gap: 18px;
 }
 
-@media (max-width: 480px) {
-  .header__lang-links {
-    margin-top: 14px;
-  }
-}

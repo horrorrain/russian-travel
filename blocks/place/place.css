@@ -19,6 +19,7 @@
 @media (max-width: 1023px) {
   .place {
     gap: 48px 28px;
+    padding-bottom: 70px;
   }
 }
 
