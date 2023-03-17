@@ -1,9 +1,6 @@
 .page {
   margin: 0 auto;
   width: 100%;
-  /* display: flex;
-  flex-direction: column;
-  align-items: center; */
   background-color: #2a2c2f;
   font-family: 'Inter', 'Arial', sans-serif;
   color: #fff;
@@ -13,4 +10,9 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
+  overflow-x: hidden;
 }
+
+/* * {
+  outline: 1px solid yellowgreen;
+ } */

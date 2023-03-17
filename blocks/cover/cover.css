@@ -1,13 +1,33 @@
 .cover {
   margin: 0 auto;
   padding-top: 92px;
-  width: calc(100% - 2*48px);
+  width: 1184px;
+  min-height: 740px;
   display: flex;
   flex-direction: column;
 }
 
+ @media (max-width: 1279px) {
+  .cover {
+    width: 1024px;
+    min-height: 640px;
+  }
+}
+
+
 @media (max-width: 1023px) {
   .cover {
-    width: 100%;
+    width: 768px;
+    min-height: 480px;
+    padding-top: 90px;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .cover {
+    max-width: 320px;
+    min-height: 200px;
+    padding-top: 66px;
   }
 }
