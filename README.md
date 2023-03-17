@@ -21,7 +21,7 @@
 
 **ССылка на проект**
 
-* [Проект на Github](https://github.com/yandex-praktikum/russian-travel)
+* [Проект на Github](https://horrorrain.github.io/russian-travel/index.html)
 
 
 
